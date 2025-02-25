@@ -1,0 +1,106 @@
+
+
+.navbar {
+    background-color: #64a7e6;
+}
+
+#cabecalho .nav .nav-link.active{
+    color: #fff;
+    background-color: #3563a8;
+}
+
+#cabecalho .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover{
+    color: #fff;
+}
+
+#sobre-o-restaurante, #cardapio{
+  background-color: #bce6e7;
+}
+
+#eventos{
+  background-color: #d8ecec;
+}
+
+.navbar-toggler{
+    background-color: #ffeae6;
+}
+
+.carousel-item {
+    transition: transform 0.5s ease, opacity 0.5s ease;
+  }
+  
+
+  
+
+  .carousel-inner img {
+    width: 100%;         
+    height: 100vh;         
+    object-fit: cover;     
+  }
+
+
+
+.pacifico-regular, .navbar-brand, h2, h3{
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+  .manrope-uniquifier, p, li, nav {
+    font-family: "Manrope", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+
+  .nav-cardapio .nav-link.active, 
+  #fale-conosco button{
+    background-color: #e15f41;
+    color: #fff;
+  } 
+
+  .nav-cardapio .nav-link:hover{
+      color: #e15f41;
+   }
+
+   img li{
+    list-style-type: none;
+   }
+
+   
+
+ cor{
+    color: #491ab6;
+ }
+
+ .container #apresentacao{
+  background-color: #e0f1f1;
+  border-radius: 10px;
+  margin-top: 5%;
+ }
+
+ .social-links li{
+  list-style: none;
+  display: inline;
+  }
+
+  @media (max-width: 767px){
+    .carousel-item img{
+      height: 280px;
+    }
+
+    #sobrehotel h2{
+        margin-top: 10%;
+    }
+
+    .interno img{
+      width: 100%;
+        display: block;
+    }
+  }
+
+  
